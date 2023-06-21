@@ -219,11 +219,11 @@ function USER_DETAIL_CONTAINS_EXPECTED_ITEMS {
 
     if ([string]::IsNullOrEmpty($profile_name)) {
         $user_detail_correct = $False
-        Write-Error -Message 'ERROR: USER PERSONA PROFILE-NAME CANNOT BE EMPTY!' -ErrorAction Stop
+        Write-Error -Message 'ERROR: CUSTOMER PERSONA PROFILE-NAME CANNOT BE EMPTY!' -ErrorAction Stop
     }
     elseif ($permset_api_names.length -eq 0) {
         $user_detail_correct = $False
-        Write-Error -Message 'ERROR: USER PERSONA PERMISSION-SETS CANNOT BE EMPTY!' -ErrorAction Stop
+        Write-Error -Message 'ERROR: CUSTOMER PERSONA PERMISSION-SETS CANNOT BE EMPTY!' -ErrorAction Stop
     }
 
     $user_detail_correct

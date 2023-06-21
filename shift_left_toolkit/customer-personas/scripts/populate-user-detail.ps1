@@ -104,4 +104,4 @@ if ($current_directory_contains_shift_left_toolkit_directory) {
 }
 
 $elapsed_seconds = $stopwatch.ElapsedMilliseconds/1000
-Write-Host "User Personas Population completed in $elapsed_seconds seconds"
+Write-Host "Customer Personas Population completed in $elapsed_seconds seconds"

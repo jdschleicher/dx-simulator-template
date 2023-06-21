@@ -27,4 +27,4 @@ else {
 }
 
 $elapsed_seconds = $stopwatch.ElapsedMilliseconds/1000
-Write-Host "User Personas Setup completed in $elapsed_seconds seconds"
+Write-Host "Customer Personas Setup completed in $elapsed_seconds seconds"
